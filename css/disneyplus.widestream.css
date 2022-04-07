@@ -1,0 +1,12 @@
+:fullscreen [id^="hudson-player"] > video {
+    transform: scale(calc(12/9));
+}
+
+:-webkit-full-screen [id^="hudson-player"] > video {
+    transform: scale(calc(12/9));
+}
+
+[id^="hudson-player"] .dss-hls-subtitle-overlay {
+    max-width: 100vw;
+    max-height: 100vh;
+}
